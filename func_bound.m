@@ -1,5 +1,6 @@
 function [lb,ub,dim] = func_bound(Func_num)
-%func_bound 输入CEC2019函数编号，返回相应函数的上下界和维度
+% func_bound: Input the CEC2019 function number and 
+% return the upper and lower bounds and dimensions of the corresponding function
 switch Func_num
     case 1
         lb=-8192;ub=8192;dim=9;
